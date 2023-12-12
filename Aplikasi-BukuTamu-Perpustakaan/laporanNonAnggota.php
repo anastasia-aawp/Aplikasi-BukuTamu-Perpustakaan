@@ -1,13 +1,13 @@
 <?php 
 include 'koneksi.php';
-$data = mysqli_query($konek ,"SELECT * FROM tamu WHERE tglkunjung BETWEEN '$_GET[tgl1]'
+$data = mysqli_query($konek ,"SELECT * FROM tamu_non_anggota WHERE tglkunjung BETWEEN '$_GET[tgl1]'
 		AND '$_GET[tgl2]' ORDER BY tglkunjung ASC");
  ?>
  <style >
  @media print{
  		.print{
  			color: blue
- 			background-color: blue;
+ 			
  		
  		}
  		.id{
@@ -19,7 +19,7 @@ $data = mysqli_query($konek ,"SELECT * FROM tamu WHERE tglkunjung BETWEEN '$_GET
  		border-collapse: collapse;
  	}
  </style>
- <h2>LAPORAN </h2>
+ <h2>LAPORAN TAMU NON ANGGOTA</h2>
  <hr/>
  <table class="print" style="margin-top: 50px;" border="1" align="center" width="100%">
  	<tr>

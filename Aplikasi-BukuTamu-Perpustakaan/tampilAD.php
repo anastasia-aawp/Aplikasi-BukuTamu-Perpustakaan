@@ -8,7 +8,7 @@ include 'headerAD.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>DATA ADMMIN</title>
+	<title>DATA ADMIN</title>
 	<style >
 		/*table{
 			width: 200px;
@@ -18,7 +18,7 @@ include 'headerAD.php';
 <body>
 	<div class="container">
 	<div class="page-header">
-<h2> DATA ADMIN SMK NEGERI 3 SELUMA</h2>
+<h2> DATA ADMIN USM</h2>
 	</div>
 <a class="btn btn-primary btn-sm" href="tambahAD.php">TAMBAH DATA</a>
 

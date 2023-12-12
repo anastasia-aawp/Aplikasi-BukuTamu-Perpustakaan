@@ -1,6 +1,6 @@
 <?php 
 include 'koneksi.php';
-$data = mysqli_query($konek ,"SELECT * FROM tamu2 WHERE tglkunjung BETWEEN '$_GET[tgl1]'
+$data = mysqli_query($konek ,"SELECT * FROM tamu_anggota WHERE tglkunjung BETWEEN '$_GET[tgl1]'
 		AND '$_GET[tgl2]' ORDER BY tglkunjung ASC");
  ?>
  <style >
@@ -22,7 +22,7 @@ $data = mysqli_query($konek ,"SELECT * FROM tamu2 WHERE tglkunjung BETWEEN '$_GE
  		border-collapse: collapse;
  	}
  </style>
- <h2>LAPORAN </h2>
+ <h2>LAPORAN TAMU ANGGOTA</h2>
  <hr/>
  <table class="print" style="margin-top: 50px;" border="1" align="center" width="100%">
  	<tr>

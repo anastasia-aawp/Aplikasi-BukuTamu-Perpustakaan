@@ -55,10 +55,11 @@ if ( !isset($_SESSION['login']) ) {
           <ul class="nav navbar-nav">
             <li class="active"><a href="halamanAD.php">Home</a></li>
             <li><a href="tampilAD.php">DATA ADMIN</a></li>
-			<li><a href="daftar.php">PENDAFTARAN</a> </li>
-			<li><a href="cetak_kartu.php">CETAK KARTU</a></li> 
-			<li><a href="laporan.php">LAPORAN</a> </li>
-			<li><a href="logout.php">LOGOUT</a></li>
+            <li><a href="tampilAA.php">DATA ANGGOTA</a></li>
+			      <li><a href="daftar.php">PENDAFTARAN</a> </li>
+			      <li><a href="cetak_kartu.php">CETAK KARTU</a></li> 
+			      <li><a href="laporan.php">LAPORAN</a> </li>
+			      <li><a href="logout.php">LOGOUT</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

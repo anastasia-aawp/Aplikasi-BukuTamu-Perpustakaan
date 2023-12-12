@@ -192,7 +192,7 @@ include 'koneksi.php';
 
 ?>
 <hr/>
-<i style="margin-left: 10px;"> Created By Erick Irwansyah</i>
+<i style="margin-left: 10px;">USM JAYA</i>
 <?php 
  if (isset($_POST['tambah'])){
  	include 'koneksi.php';
@@ -214,7 +214,7 @@ include 'koneksi.php';
  		$tglkunjung = $today;
 
 
- 		$simpan = mysqli_query($konek , "INSERT INTO tamu2 VALUES (null,'$noanggota','$nama','$tglkunjung','$Tujuan')
+ 		$simpan = mysqli_query($konek , "INSERT INTO tamu_anggota VALUES (null,'$noanggota','$nama','$tglkunjung','$Tujuan')
  			");
  		if ($simpan){
  			echo "

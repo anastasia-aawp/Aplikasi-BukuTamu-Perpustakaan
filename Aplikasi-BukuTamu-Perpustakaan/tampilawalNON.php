@@ -93,7 +93,7 @@
 	</table>
 </form>
 <hr/>
-<i>Created By Erick Irwansyah</i>
+<i>USM JAYA</i>
 <?php 
  if (isset($_POST['tambah'])){
  	include 'koneksi.php';
@@ -113,7 +113,7 @@
  		$today = '20' . sprintf(date('y-m-d'));
  		$tglkunjung = $today;
 
- 		$simpan = mysqli_query($konek , "INSERT INTO tamu VALUES (null,'$nama','$Alamat', '$Instansi' ,'$tglkunjung', '$Tujuan')
+ 		$simpan = mysqli_query($konek , "INSERT INTO nonanggota VALUES (null,'$nama','$Alamat', '$Instansi' ,'$tglkunjung', '$Tujuan')
  			");
  		if ($simpan){
  			echo "

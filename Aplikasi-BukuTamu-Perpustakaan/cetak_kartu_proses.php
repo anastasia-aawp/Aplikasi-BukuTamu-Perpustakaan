@@ -7,7 +7,6 @@ $dta = mysqli_fetch_assoc($data);
  	@media print{
  		.print{
  			color: blue
- 			background-color: blue;
  		
  		}
  		.id{
